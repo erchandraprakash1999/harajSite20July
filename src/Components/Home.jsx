@@ -17,7 +17,7 @@ import {
 const Home = () => {
   return (
     <div>
-      <div class="scrollbmenu">
+      <div class="scrollbmenu" style={{background:"#FAF9F6"}}>
         <a className="text-secondary" href="#home">
           <span>
             <CircleEllipsis></CircleEllipsis> <br />
@@ -79,7 +79,7 @@ const Home = () => {
           Cars
         </a>
       </div>
-      <div class="scrollbmenu">
+      <div class="scrollbmenu" style={{background:"#FAF9F6"}}>
         <a className="text-secondary" href="#home">
         <button type="button" class="btn btn-outline-secondary">Job Restaurents</button>
         </a>
@@ -115,7 +115,7 @@ const Home = () => {
         </a>
         
       </div>
-      <div class="scrollbmenu">
+      <div class="scrollbmenu" style={{background:"#FAF9F6"}}>
         <a className="text-secondary" href="#home">
         <button type="button" class="btn btn-outline-secondary">A and Sincere Job </button>
         </a>

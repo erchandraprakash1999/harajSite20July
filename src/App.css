@@ -97,7 +97,8 @@ div.scrollmenu a {
 }
 
 div.scrollbmenu a:hover {
-
+ background-color: rgb(253, 245, 245);
+color:red
 }
 div.scrollbmenu {
  
@@ -112,6 +113,7 @@ div.scrollbmenu a {
   text-align: center;
   padding:1vw 5vw 1vw 5vw;
   text-decoration: none;
+ 
  
 }
 

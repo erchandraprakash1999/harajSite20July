@@ -18,7 +18,7 @@ const Header = () => {
         className="header"
         style={{ backgroundColor: "#D3D3D3", marginBottom: "0px" }}
       >
-        <div className="container-fluid">
+        <div className="container-fluid" style={{background:"#dddddd"}}>
           <div className="row align-items-center p-3" id="toprow">
             <div class="scrollbmenu">
               <a href="#home">
@@ -156,7 +156,7 @@ const Header = () => {
             </a>
           </div>
         </nav>
-        <nav className="bg-light">
+        <nav className="bg-light" >
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-12 py-2">
