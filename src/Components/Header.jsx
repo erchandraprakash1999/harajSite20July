@@ -19,7 +19,7 @@ const Header = () => {
         style={{ backgroundColor: "#D3D3D3", marginBottom: "0px" }}
       >
         <div className="container-fluid">
-          <div className="row align-items-center" id="toprow">
+          <div className="row align-items-center p-3" id="toprow">
             <div class="scrollbmenu">
               <a href="#home">
                 {" "}
@@ -163,17 +163,17 @@ const Header = () => {
                 <div className="d-flex align-items-center">
                   <button
                     type="button"
-                    className="btn btn-warning px-3 h2"
+                    className="btn btn-warning px-3 h2 m-3"
                     style={{ fontWeight: "normal" }}
                   >
                     + Add your Post
                   </button>
-                  <div class="form ml-5 m-auto">
+                  <div class="form ml-5 m-auto mr-2">
                     <i class="fa fa-search text-primary"></i>
                     <input
                       type="text"
                       class="form-control form-input px-5"
-                      style={{ minWidth: "60vw" }}
+                      style={{ minWidth: "50vw" }}
                       placeholder="Search anything..."
                     />
                     <span class="left-pan text-primary px-">
