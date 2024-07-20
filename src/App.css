@@ -1,0 +1,120 @@
+@media (max-width: 576px) {
+  .btn-responsive {
+    font-size: 12px;
+    /* Adjust the font size as needed */
+  }
+
+  .card {
+    margin-top: 50px;
+
+  }
+
+}
+
+#toprow span {
+
+  
+  font-weight:larger;
+}
+.form{
+
+  position: relative;
+}
+
+.form .fa-search{
+
+  position: absolute;
+  top:20px;
+  left: 20px;
+  color: #9ca3af;
+
+}
+
+.form span{
+
+      position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+  padding-left: 7px;
+}
+
+.left-pan i{
+ 
+ padding-left: 10px;
+}
+
+.form-input{
+
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+
+.form-input:focus{
+
+  box-shadow: none;
+  border:none;
+}
+
+
+
+
+
+.horizontal-scrollable {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.col-xs-4 {
+  flex: 0 0 auto;
+  width: auto;
+  padding: 1rem;
+  background: #f0f0f0;
+  margin: 0.5rem;
+}
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding:0 5vw 0 5vw;
+  text-decoration: none;
+}
+
+div.scrollbmenu a:hover {
+
+}
+div.scrollbmenu {
+ 
+  overflow: auto;
+  white-space: nowrap;
+   
+}
+
+div.scrollbmenu a {
+  display: inline-block;
+
+  text-align: center;
+  padding:1vw 5vw 1vw 5vw;
+  text-decoration: none;
+ 
+}
+
+div.scrollbmenu a:hover {
+ 
+}
