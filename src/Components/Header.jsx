@@ -163,7 +163,7 @@ const Header = () => {
                 <div className="d-flex align-items-center">
                   <button
                     type="button"
-                    className="btn btn-warning px-5 py-3 h2"
+                    className="btn btn-warning px-3 h2"
                     style={{ fontWeight: "normal" }}
                   >
                     + Add your Post
