@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PageB from "./Components/PageB";
 import PageC from "./Components/PageC";
 import Home from "./Components/Home";
+import Footer from "./Components/Footer"
 import Header from "./Components/Header";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/b" element={<PageB></PageB>}></Route>
           <Route path="/c" element={<PageC></PageC>}></Route>
         </Routes>
+        <Footer></Footer>
       </BrowserRouter>
     </>
   );
