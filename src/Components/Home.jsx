@@ -243,7 +243,7 @@ const Home = () => {
                 <table className="table table-striped table-hover">
                   <tbody>
                     <tr>
-                      <td>
+                     <td className="text-center">
                         <a href="#">
                           <img
                             style={{ width: "8vw" }}
@@ -254,13 +254,13 @@ const Home = () => {
                         </a>
                       </td>
 
-                      <td>
+                      <td className="text-right">
                         2 minutes ago<Clock></Clock>
                         <br />
                         Shyam added <User2Icon></User2Icon>
                       </td>
 
-                      <td>
+                      <td  className="text-right">
                         <span> pro max 11 vinay پرو میکس </span>
                         <br />
                         <span>
@@ -269,7 +269,7 @@ const Home = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td>
+                     <td className="text-center">
                         <a href="#">
                           <img
                             style={{ width: "8vw" }}
@@ -280,13 +280,13 @@ const Home = () => {
                         </a>
                       </td>
 
-                      <td>
+                      <td className="text-right">
                         2 minutes ago<Clock></Clock>
                         <br />
                         Shyam added <User2Icon></User2Icon>
                       </td>
 
-                      <td>
+                      <td  className="text-right">
                         <span> pro max 11 vinay پرو میکس </span>
                         <br />
                         <span>
@@ -295,7 +295,7 @@ const Home = () => {
                       </td>
                     </tr>{" "}
                     <tr>
-                      <td>
+                      <td className="text-center">
                         <a href="#">
                           <img
                             style={{ width: "8vw" }}
@@ -306,13 +306,13 @@ const Home = () => {
                         </a>
                       </td>
 
-                      <td>
+                      <td className="text-right">
                         2 minutes ago<Clock></Clock>
                         <br />
                         Shyam added <User2Icon></User2Icon>
                       </td>
 
-                      <td>
+                      <td  className="text-right">
                         <span> pro max 11 vinay پرو میکس </span>
                         <br />
                         <span>
@@ -321,7 +321,7 @@ const Home = () => {
                       </td>
                     </tr>{" "}
                     <tr>
-                      <td>
+                     <td className="text-center">
                         <a href="#">
                           <img
                             style={{ width: "8vw" }}
@@ -332,13 +332,13 @@ const Home = () => {
                         </a>
                       </td>
 
-                      <td>
+                      <td className="text-right">
                         2 minutes ago<Clock></Clock>
                         <br />
                         Shyam added <User2Icon></User2Icon>
                       </td>
 
-                      <td>
+                      <td  className="text-right">
                         <span> pro max 11 vinay پرو میکس </span>
                         <br />
                         <span>
@@ -347,7 +347,7 @@ const Home = () => {
                       </td>
                     </tr>{" "}
                     <tr>
-                      <td>
+                     <td className="text-center">
                         <a href="#">
                           <img
                             style={{ width: "8vw" }}
@@ -358,13 +358,13 @@ const Home = () => {
                         </a>
                       </td>
 
-                      <td>
+                      <td className="text-right">
                         2 minutes ago<Clock></Clock>
                         <br />
                         Shyam added <User2Icon></User2Icon>
                       </td>
 
-                      <td>
+                      <td  className="text-right">
                         <span> pro max 11 vinay پرو میکس </span>
                         <br />
                         <span>
@@ -373,7 +373,7 @@ const Home = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td>
+                     <td className="text-center">
                         <a href="#">
                           <img
                             style={{ width: "8vw" }}
@@ -384,13 +384,13 @@ const Home = () => {
                         </a>
                       </td>
 
-                      <td>
+                      <td className="text-right">
                         2 minutes ago<Clock></Clock>
                         <br />
                         Shyam added <User2Icon></User2Icon>
                       </td>
 
-                      <td>
+                      <td  className="text-right">
                         <span> pro max 11 vinay پرو میکس </span>
                         <br />
                         <span>
@@ -399,7 +399,7 @@ const Home = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td>
+                     <td className="text-center">
                         <a href="#">
                           <img
                             style={{ width: "8vw" }}
@@ -410,13 +410,13 @@ const Home = () => {
                         </a>
                       </td>
 
-                      <td>
+                      <td className="text-right">
                         2 minutes ago<Clock></Clock>
                         <br />
                         Shyam added <User2Icon></User2Icon>
                       </td>
 
-                      <td>
+                      <td  className="text-right">
                         <span> pro max 11 vinay پرو میکس </span>
                         <br />
                         <span>
@@ -425,7 +425,7 @@ const Home = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td>
+                     <td className="text-center">
                         <a href="#">
                           <img
                             style={{ width: "8vw" }}
@@ -436,13 +436,13 @@ const Home = () => {
                         </a>
                       </td>
 
-                      <td>
+                      <td className="text-right">
                         2 minutes ago<Clock></Clock>
                         <br />
                         Shyam added <User2Icon></User2Icon>
                       </td>
 
-                      <td>
+                      <td  className="text-right">
                         <span> pro max 11 vinay پرو میکس </span>
                         <br />
                         <span>
@@ -451,7 +451,7 @@ const Home = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td>
+                     <td className="text-center">
                         <a href="#">
                           <img
                             style={{ width: "8vw" }}
@@ -462,13 +462,13 @@ const Home = () => {
                         </a>
                       </td>
 
-                      <td>
+                      <td className="text-right">
                         2 minutes ago<Clock></Clock>
                         <br />
                         Shyam added <User2Icon></User2Icon>
                       </td>
 
-                      <td>
+                      <td  className="text-right">
                         <span> pro max 11 vinay پرو میکس </span>
                         <br />
                         <span>
@@ -477,7 +477,7 @@ const Home = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td>
+                     <td className="text-center">
                         <a href="#">
                           <img
                             style={{ width: "8vw" }}
@@ -488,13 +488,13 @@ const Home = () => {
                         </a>
                       </td>
 
-                      <td>
+                      <td className="text-right">
                         2 minutes ago<Clock></Clock>
                         <br />
                         Shyam added <User2Icon></User2Icon>
                       </td>
 
-                      <td>
+                      <td  className="text-right">
                         <span> pro max 11 vinay پرو میکس </span>
                         <br />
                         <span>
@@ -503,7 +503,7 @@ const Home = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td>
+                     <td className="text-center">
                         <a href="#">
                           <img
                             style={{ width: "8vw" }}
@@ -514,13 +514,13 @@ const Home = () => {
                         </a>
                       </td>
 
-                      <td>
+                      <td className="text-right">
                         2 minutes ago<Clock></Clock>
                         <br />
                         Shyam added <User2Icon></User2Icon>
                       </td>
 
-                      <td>
+                      <td  className="text-right">
                         <span> pro max 11 vinay پرو میکس </span>
                         <br />
                         <span>
