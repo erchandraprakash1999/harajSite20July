@@ -114,7 +114,7 @@ const Sidecode = () => {
         </div>
         <div class="col-xs-12 col-md-4">
           <div style={{ border: "1px black solid ",borderRadius:"10px", padding:"10px 40px 10px 40px"}} className="d-flex justify-content-center align-items-center m-1">
-          <img style={{ width: "20vw",height:"10vh"}} src={horse} alt="" />
+          <img src={horse} alt="" style={{ width: "20vw",height:"10vh"}} />
           </div>
         </div>
       </div>

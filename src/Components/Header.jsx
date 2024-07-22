@@ -1,7 +1,9 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+
 import "../App.css";
 import logo from "../assets/haraj-logo.png";
+import { NavLink } from "react-router-dom";
+import Example from "./Login&Reg";
 
 const Header = () => {
   return (
@@ -131,22 +133,14 @@ const Header = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <button
-                    style={{
-                      backgroundColor: "rgb(211, 211, 211)",
-                      color: "black",
-                    }}
-                    className="btn btn-secondary p-2"
-                    type="button"
-                    id="#dropdownMenu"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Login
-                    <i class="fa-solid fa-arrow-right"></i>
-                  </button>
-                </a>
+                <NavLink className="nav-link" to="/">
+                 
+                   
+                 
+                  <Example />
+
+               
+                </NavLink>
               </li>
             </ul>
             <a className="navbar-brand" href="#">
@@ -160,6 +154,7 @@ const Header = () => {
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-12 py-2">
+               
                 <div className="d-flex align-items-center">
                   <button
                     type="button"
@@ -168,6 +163,7 @@ const Header = () => {
                   >
                     + Add your Post
                   </button>
+                  
                   <div class="form ml-5 m-auto mr-2">
                     <i class="fa fa-search text-primary"></i>
                     <input

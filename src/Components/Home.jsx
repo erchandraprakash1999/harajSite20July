@@ -236,11 +236,11 @@ const Home = () => {
         </a>
       </div>
       <div className="container-fluid">
-        <div className="table-responsive">
-          <div className="table-wrapper">
+        <div className="">
+          <div className="">
             <div className="row">
-              <div className="col-md-9 col-sm-12 col-12">
-                <table className="table table-striped table-hover">
+              <div className="col-md-9 col-sm-12 col-12" >
+                <table className="table">
                   <tbody>
                     <tr>
                      <td className="text-center">
