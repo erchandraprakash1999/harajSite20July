@@ -35,6 +35,294 @@ const TabContent = () => {
                 aria-labelledby="all-tab">
                 <table className="table">
                     <tbody>
+                    <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
                         <tr>
                             <td className="text-center">
                                 <a href="#">
@@ -93,6 +381,102 @@ const TabContent = () => {
                 <table className="table">
                     <tbody>
                         <tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
                             <td className="text-center">
                                 <a href="#">
                                     <img
@@ -431,6 +815,343 @@ const TabContent = () => {
                                 </span>
                             </td>
                         </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+
                     </tbody>
                 </table>
             </div>
@@ -442,6 +1163,198 @@ const TabContent = () => {
                 aria-labelledby="base-tab">
                 <table className="table">
                     <tbody>
+                    <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
                         <tr>
                             <td className="text-center">
                                 <a href="#">
@@ -500,7 +1413,7 @@ const TabContent = () => {
                 role="tabpanel" 
                 aria-labelledby="animals-tab">
                 <table className="table">
-                    <tbody>
+                <tbody>
                         <tr>
                             <td className="text-center">
                                 <a href="#">
@@ -513,15 +1426,15 @@ const TabContent = () => {
                                 </a>
                             </td>
                             <td className="text-right">
-                                6 hours ago<Clock />
+                                2 minutes ago<Clock />
                                 <br />
-                                Lucas added <User2Icon />
+                                Shyam added <User2Icon />
                             </td>
                             <td className="text-right">
-                                <span>Veterinarian</span>
+                                <span>pro max 11 vinay پرو میکس</span>
                                 <br />
                                 <span>
-                                    Mumbai <MapPin />
+                                    Makkah <MapPin />
                                 </span>
                             </td>
                         </tr>
@@ -530,81 +1443,22 @@ const TabContent = () => {
                                 <a href="#">
                                     <img
                                         style={{ width: "8vw" }}
-                                        src={img5}
+                                        src={img4}
                                         className="avatar"
                                         alt="Avatar"
                                     />
                                 </a>
                             </td>
                             <td className="text-right">
-                                7 hours ago<Clock />
+                                2 minutes ago<Clock />
                                 <br />
-                                Emma added <User2Icon />
+                                Shyam added <User2Icon />
                             </td>
                             <td className="text-right">
-                                <span>Animal Caretaker</span>
+                                <span>pro max 11 vinay پرو میکس</span>
                                 <br />
                                 <span>
-                                    Buenos Aires <MapPin />
-                                </span>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            {/* Devices Tab Content */}
-            <div className="col-md-9 col-sm-12 col-12 tab-pane fade" 
-                id="devices" 
-                role="tabpanel" 
-                aria-labelledby="devices-tab">
-                <table className="table">
-                    <tbody>
-                        <tr>
-                            <td className="text-center">
-                                <a href="#">
-                                    <img
-                                        style={{ width: "8vw" }}
-                                        src={img2}
-                                        className="avatar"
-                                        alt="Avatar"
-                                    />
-                                </a>
-                            </td>
-                            <td className="text-right">
-                                8 hours ago<Clock />
-                                <br />
-                                Ava added <User2Icon />
-                            </td>
-                            <td className="text-right">
-                                <span>Tech Support</span>
-                                <br />
-                                <span>
-                                    Singapore <MapPin />
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="text-center">
-                                <a href="#">
-                                    <img
-                                        style={{ width: "8vw" }}
-                                        src={img1}
-                                        className="avatar"
-                                        alt="Avatar"
-                                    />
-                                </a>
-                            </td>
-                            <td className="text-right">
-                                9 hours ago<Clock />
-                                <br />
-                                Noah added <User2Icon />
-                            </td>
-                            <td className="text-right">
-                                <span>IT Specialist</span>
-                                <br />
-                                <span>
-                                    Toronto <MapPin />
+                                    Makkah <MapPin />
                                 </span>
                             </td>
                         </tr>
@@ -667,6 +1521,391 @@ const TabContent = () => {
                                 </span>
                             </td>
                         </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+
                     </tbody>
                 </table>
             </div>
@@ -678,6 +1917,391 @@ const TabContent = () => {
                 aria-labelledby="cars-tab">
                 <table className="table">
                     <tbody>
+                    <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img2}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                2 hours ago<Clock />
+                                <br />
+                                Mia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Accessory Designer</span>
+                                <br />
+                                <span>
+                                    Milan <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="text-center">
+                                <a href="#">
+                                    <img
+                                        style={{ width: "8vw" }}
+                                        src={img3}
+                                        className="avatar"
+                                        alt="Avatar"
+                                    />
+                                </a>
+                            </td>
+                            <td className="text-right">
+                                3 hours ago<Clock />
+                                <br />
+                                Sophia added <User2Icon />
+                            </td>
+                            <td className="text-right">
+                                <span>Fashion Consultant</span>
+                                <br />
+                                <span>
+                                    Paris <MapPin />
+                                </span>
+                            </td>
+                        </tr>
+
                         <tr>
                             <td className="text-center">
                                 <a href="#">

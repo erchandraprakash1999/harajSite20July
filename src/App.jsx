@@ -8,6 +8,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer"
 import Header from "./Components/Header";
+import { counterContext } from "../src/contexts/ActiveTabContexts"
+import { useContext } from "react";
+
 
 
 function App() {
@@ -15,6 +18,7 @@ function App() {
 
   return (
     <>
+    <counterContext.Provider value={{count,setCount}}>
       <BrowserRouter>
         <Header/>
         <Routes>
@@ -24,6 +28,7 @@ function App() {
         </Routes>
         <Footer/>
       </BrowserRouter>
+      </counterContext.Provider>
     </>
   );
 }

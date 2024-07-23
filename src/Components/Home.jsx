@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useContext } from 'react';
 import {
   CircleEllipsis,
   Plane,
@@ -12,43 +12,66 @@ import {
   PhoneIcon,
   Building2Icon,
   CarTaxiFrontIcon,
-  User2Icon,
-  Clock12Icon,
-  Clock,
-  MapPin,
 } from "lucide-react";
 import Sidecode from "./Sidecode";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import { MDBInputGroup, MDBInput, MDBIcon, MDBBtn } from "mdb-react-ui-kit";
-
-
-
 import DropdownButton from "react-bootstrap/DropdownButton";
-
 import Dropdown from "react-bootstrap/Dropdown";
 import SplitButton from "react-bootstrap/SplitButton";
 import Button from "react-bootstrap/Button";
 import Table from "react-bootstrap/Table";
-
 import img1 from "../assets/game.webp";
 import img2 from "../assets/iphone.webp";
 import img3 from "../assets/mob.webp";
 import img4 from "../assets/remote.webp";
-import { IonSearchbar } from "@ionic/react";
 import img5 from "../assets/vivo.webp";
-
 import avatar from "../assets/a.jpg";
 import { SearchCheck } from "lucide";
 import TabContent from "./TabContent";
+import { counterContext } from "../contexts/ActiveTabContexts";
+
 const Home = () => {
+  const value = useContext(counterContext);
+
+  useEffect(() => {
+   
+    const tabMap = {
+     "all": 'all-tab',
+      "hunting": 'hunting-tab',
+    "library": 'library-tab',
+      "programming": 'pg-tab',
+      "jobs": 'jobs-tab',
+      "services": 'services-tab',
+      "personal": 'tools-tab',
+     "furniture": 'base-tab',
+      "animals": 'animals-tab',
+     "devices": 'devices-tab',
+      "real": 'real-estate-tab',
+     "cars": 'cars-tab'
+    };
+
+    const tabId = tabMap[value.count];
+    if (tabId) {
+      console.log(tabId,value)
+      const tabElement = document.getElementById(tabId);
+      if (tabElement) {
+        tabElement.click();
+      }
+    }
+    else{
+      document.getElementById("all-tab").click();
+    }
+  }, [value]);
+
   const customButtonStyles = {
-    backgroundColor: "#6c757d", // Default grey color
+    backgroundColor: "#6c757d",
     borderColor: "#6c757d",
     color: "white",
   };
 
   const customButtonHoverStyles = {
-    backgroundColor: "#ffc107", // Yellow color on hover
+    backgroundColor: "#ffc107",
     borderColor: "#ffc107",
     color: "black",
   };
@@ -56,83 +79,87 @@ const Home = () => {
   return (
     <div>
       <div className="scrollbmenu" style={{ background: "#FAF9F6" }}>
-    <ul className="nav nav-tabs" id="myTab" role="tablist" style={{ flexWrap: "nowrap" }}>
-        <li className="nav-item">
-            <a className="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">
-                <span>
-                    <CircleEllipsis /> <br />
-                    All auctions
-                </span>
+        <ul className="nav nav-tabs" id="myTab" role="tablist" style={{ flexWrap: "nowrap" }}>
+          <li className="nav-item">
+            <a className="nav-link" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">
+              <span>
+                <CircleEllipsis /> <br />
+                All auctions
+              </span>
             </a>
-        </li>
-        <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <a className="nav-link" id="hunting-tab" data-toggle="tab" href="#hunting" role="tab" aria-controls="hunting" aria-selected="false">
-                <Plane /> <br />
-                Hunting and Trips
+              <Plane /> <br />
+              Hunting and Trips
             </a>
-        </li>
-        <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <a className="nav-link" id="library-tab" data-toggle="tab" href="#library" role="tab" aria-controls="library" aria-selected="false">
-                <BookOpenCheck /> <br />
-                Library and arts
+              <BookOpenCheck /> <br />
+              Library and arts
             </a>
-        </li>
-        <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <a className="nav-link" id="pg-tab" data-toggle="tab" href="#pg" role="tab" aria-controls="pg" aria-selected="false">
-                <Code /> <br />
-                Programming and Design
+              <Code /> <br />
+              Programming and Design
             </a>
-        </li>
-        <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <a className="nav-link" id="jobs-tab" data-toggle="tab" href="#jobs" role="tab" aria-controls="jobs" aria-selected="false">
-                <BriefcaseBusiness /> <br />
-                Jobs
+              <BriefcaseBusiness /> <br />
+              Jobs
             </a>
-        </li>
-        <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <a className="nav-link" id="services-tab" data-toggle="tab" href="#services" role="tab" aria-controls="services" aria-selected="false">
-                <HandHelping /> <br />
-                Services
+              <HandHelping /> <br />
+              Services
             </a>
-        </li>
-        <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <a className="nav-link" id="tools-tab" data-toggle="tab" href="#tools" role="tab" aria-controls="tools" aria-selected="false">
-                <Shirt /> <br />
-                Personal accessories
+              <Shirt /> <br />
+              Personal accessories
             </a>
-        </li>
-        <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <a className="nav-link" id="base-tab" data-toggle="tab" href="#base" role="tab" aria-controls="base" aria-selected="false">
-                <BedDouble /> <br />
-                Furniture
+              <BedDouble /> <br />
+              Furniture
             </a>
-        </li>
-        <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <a className="nav-link" id="animals-tab" data-toggle="tab" href="#animals" role="tab" aria-controls="animals" aria-selected="false">
-                <Cat /> <br />
-                Animals and birds
+              <Cat /> <br />
+              Animals and birds
             </a>
-        </li>
-        <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <a className="nav-link" id="devices-tab" data-toggle="tab" href="#devices" role="tab" aria-controls="devices" aria-selected="false">
-                <PhoneIcon /> <br />
-                Devices
+              <PhoneIcon /> <br />
+              Devices
             </a>
-        </li>
-        <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <a className="nav-link" id="real-estate-tab" data-toggle="tab" href="#real-estate" role="tab" aria-controls="real-estate" aria-selected="false">
-                <Building2Icon /> <br />
-                Real Estate
+              <Building2Icon /> <br />
+              Real Estate
             </a>
-        </li>
-        <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <a className="nav-link" id="cars-tab" data-toggle="tab" href="#cars" role="tab" aria-controls="cars" aria-selected="false">
-                <CarTaxiFrontIcon /> <br />
-                Cars
+              <CarTaxiFrontIcon /> <br />
+              Cars
             </a>
-        </li>
-    </ul>
-</div>
+          </li>
+        </ul>
+      </div>
+
+      <div className="scrollbmenu" style={{ background: "#FAF9F6" }}>
+        {/* Buttons */}
+      </div>
 
       <div className="scrollbmenu" style={{ background: "#FAF9F6" }}>
         <a className="text-secondary" href="#home">
