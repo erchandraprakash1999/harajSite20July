@@ -5,6 +5,7 @@ import logo from "../assets/haraj-logo.png";
 import { NavLink } from "react-router-dom";
 import Example from "./Login&Reg";
 
+
 const Header = () => {
   return (
     <>

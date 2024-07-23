@@ -39,6 +39,7 @@ import img5 from "../assets/vivo.webp";
 
 import avatar from "../assets/a.jpg";
 import { SearchCheck } from "lucide";
+import TabContent from "./TabContent";
 const Home = () => {
   const customButtonStyles = {
     backgroundColor: "#6c757d", // Default grey color
@@ -55,67 +56,84 @@ const Home = () => {
   return (
     <div>
       <div className="scrollbmenu" style={{ background: "#FAF9F6" }}>
-        <a className="text-secondary" href="#home">
-          <span>
-            <CircleEllipsis></CircleEllipsis> <br />
-            All auctions
-          </span>
-        </a>
-        <a className="text-secondary" href="#news">
-          <Plane />
-          <br /> Hunting and Trips
-        </a>
-        <a className="text-secondary" href="#contact">
-          <BookOpenCheck />
-          <br />
-          Library and arts
-        </a>
-        <a className="text-secondary" href="#about">
-          <Code />
-          <br />
-          Programming and Design
-        </a>
-        <a className="text-secondary" href="#support">
-          <BriefcaseBusiness />
-          <br />
-          jobs
-        </a>
-        <a className="text-secondary" href="#blog">
-          <HandHelping />
-          <br />
-          Services
-        </a>
-        <a className="text-secondary" href="#tools">
-          <Shirt />
-          <br />
-          Personal accessories
-        </a>
-        <a className="text-secondary" href="#base">
-          <BedDouble />
-          <br />
-          Furniture
-        </a>
-        <a className="text-secondary" href="#custom">
-          <Cat />
-          <br />
-          Animals and birds
-        </a>
-        <a className="text-secondary" href="#more">
-          <PhoneIcon></PhoneIcon>
-          <br />
-          Devices
-        </a>
-        <a className="text-secondary" href="#logo">
-          <Building2Icon></Building2Icon>
-          <br />
-          real eState
-        </a>
-        <a className="text-secondary" href="#friends">
-          <CarTaxiFrontIcon></CarTaxiFrontIcon>
-          <br />
-          Cars
-        </a>
-      </div>
+    <ul className="nav nav-tabs" id="myTab" role="tablist" style={{ flexWrap: "nowrap" }}>
+        <li className="nav-item">
+            <a className="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">
+                <span>
+                    <CircleEllipsis /> <br />
+                    All auctions
+                </span>
+            </a>
+        </li>
+        <li className="nav-item">
+            <a className="nav-link" id="hunting-tab" data-toggle="tab" href="#hunting" role="tab" aria-controls="hunting" aria-selected="false">
+                <Plane /> <br />
+                Hunting and Trips
+            </a>
+        </li>
+        <li className="nav-item">
+            <a className="nav-link" id="library-tab" data-toggle="tab" href="#library" role="tab" aria-controls="library" aria-selected="false">
+                <BookOpenCheck /> <br />
+                Library and arts
+            </a>
+        </li>
+        <li className="nav-item">
+            <a className="nav-link" id="pg-tab" data-toggle="tab" href="#pg" role="tab" aria-controls="pg" aria-selected="false">
+                <Code /> <br />
+                Programming and Design
+            </a>
+        </li>
+        <li className="nav-item">
+            <a className="nav-link" id="jobs-tab" data-toggle="tab" href="#jobs" role="tab" aria-controls="jobs" aria-selected="false">
+                <BriefcaseBusiness /> <br />
+                Jobs
+            </a>
+        </li>
+        <li className="nav-item">
+            <a className="nav-link" id="services-tab" data-toggle="tab" href="#services" role="tab" aria-controls="services" aria-selected="false">
+                <HandHelping /> <br />
+                Services
+            </a>
+        </li>
+        <li className="nav-item">
+            <a className="nav-link" id="tools-tab" data-toggle="tab" href="#tools" role="tab" aria-controls="tools" aria-selected="false">
+                <Shirt /> <br />
+                Personal accessories
+            </a>
+        </li>
+        <li className="nav-item">
+            <a className="nav-link" id="base-tab" data-toggle="tab" href="#base" role="tab" aria-controls="base" aria-selected="false">
+                <BedDouble /> <br />
+                Furniture
+            </a>
+        </li>
+        <li className="nav-item">
+            <a className="nav-link" id="animals-tab" data-toggle="tab" href="#animals" role="tab" aria-controls="animals" aria-selected="false">
+                <Cat /> <br />
+                Animals and birds
+            </a>
+        </li>
+        <li className="nav-item">
+            <a className="nav-link" id="devices-tab" data-toggle="tab" href="#devices" role="tab" aria-controls="devices" aria-selected="false">
+                <PhoneIcon /> <br />
+                Devices
+            </a>
+        </li>
+        <li className="nav-item">
+            <a className="nav-link" id="real-estate-tab" data-toggle="tab" href="#real-estate" role="tab" aria-controls="real-estate" aria-selected="false">
+                <Building2Icon /> <br />
+                Real Estate
+            </a>
+        </li>
+        <li className="nav-item">
+            <a className="nav-link" id="cars-tab" data-toggle="tab" href="#cars" role="tab" aria-controls="cars" aria-selected="false">
+                <CarTaxiFrontIcon /> <br />
+                Cars
+            </a>
+        </li>
+    </ul>
+</div>
+
       <div className="scrollbmenu" style={{ background: "#FAF9F6" }}>
         <a className="text-secondary" href="#home">
           <button type="button" className="btn btn-outline-secondary">
@@ -235,302 +253,10 @@ const Home = () => {
           </button>
         </a>
       </div>
-      <div className="container-fluid">
-        <div className="">
-          <div className="">
-            <div className="row">
-              <div className="col-md-9 col-sm-12 col-12" >
-                <table className="table">
-                  <tbody>
-                    <tr>
-                     <td className="text-center">
-                        <a href="#">
-                          <img
-                            style={{ width: "8vw" }}
-                            src={img5}
-                            className="avatar"
-                            alt="Avatar"
-                          />{" "}
-                        </a>
-                      </td>
-
-                      <td className="text-right">
-                        2 minutes ago<Clock></Clock>
-                        <br />
-                        Shyam added <User2Icon></User2Icon>
-                      </td>
-
-                      <td  className="text-right">
-                        <span> pro max 11 vinay پرو میکس </span>
-                        <br />
-                        <span>
-                          Makkah <MapPin></MapPin>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                     <td className="text-center">
-                        <a href="#">
-                          <img
-                            style={{ width: "8vw" }}
-                            src={img1}
-                            className="avatar"
-                            alt="Avatar"
-                          />{" "}
-                        </a>
-                      </td>
-
-                      <td className="text-right">
-                        2 minutes ago<Clock></Clock>
-                        <br />
-                        Shyam added <User2Icon></User2Icon>
-                      </td>
-
-                      <td  className="text-right">
-                        <span> pro max 11 vinay پرو میکس </span>
-                        <br />
-                        <span>
-                          Makkah <MapPin></MapPin>
-                        </span>
-                      </td>
-                    </tr>{" "}
-                    <tr>
-                      <td className="text-center">
-                        <a href="#">
-                          <img
-                            style={{ width: "8vw" }}
-                            src={img2}
-                            className="avatar"
-                            alt="Avatar"
-                          />{" "}
-                        </a>
-                      </td>
-
-                      <td className="text-right">
-                        2 minutes ago<Clock></Clock>
-                        <br />
-                        Shyam added <User2Icon></User2Icon>
-                      </td>
-
-                      <td  className="text-right">
-                        <span> pro max 11 vinay پرو میکس </span>
-                        <br />
-                        <span>
-                          Makkah <MapPin></MapPin>
-                        </span>
-                      </td>
-                    </tr>{" "}
-                    <tr>
-                     <td className="text-center">
-                        <a href="#">
-                          <img
-                            style={{ width: "8vw" }}
-                            src={img3}
-                            className="avatar"
-                            alt="Avatar"
-                          />{" "}
-                        </a>
-                      </td>
-
-                      <td className="text-right">
-                        2 minutes ago<Clock></Clock>
-                        <br />
-                        Shyam added <User2Icon></User2Icon>
-                      </td>
-
-                      <td  className="text-right">
-                        <span> pro max 11 vinay پرو میکس </span>
-                        <br />
-                        <span>
-                          Makkah <MapPin></MapPin>
-                        </span>
-                      </td>
-                    </tr>{" "}
-                    <tr>
-                     <td className="text-center">
-                        <a href="#">
-                          <img
-                            style={{ width: "8vw" }}
-                            src={img4}
-                            className="avatar"
-                            alt="Avatar"
-                          />{" "}
-                        </a>
-                      </td>
-
-                      <td className="text-right">
-                        2 minutes ago<Clock></Clock>
-                        <br />
-                        Shyam added <User2Icon></User2Icon>
-                      </td>
-
-                      <td  className="text-right">
-                        <span> pro max 11 vinay پرو میکس </span>
-                        <br />
-                        <span>
-                          Makkah <MapPin></MapPin>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                     <td className="text-center">
-                        <a href="#">
-                          <img
-                            style={{ width: "8vw" }}
-                            src={img4}
-                            className="avatar"
-                            alt="Avatar"
-                          />{" "}
-                        </a>
-                      </td>
-
-                      <td className="text-right">
-                        2 minutes ago<Clock></Clock>
-                        <br />
-                        Shyam added <User2Icon></User2Icon>
-                      </td>
-
-                      <td  className="text-right">
-                        <span> pro max 11 vinay پرو میکس </span>
-                        <br />
-                        <span>
-                          Makkah <MapPin></MapPin>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                     <td className="text-center">
-                        <a href="#">
-                          <img
-                            style={{ width: "8vw" }}
-                            src={img4}
-                            className="avatar"
-                            alt="Avatar"
-                          />{" "}
-                        </a>
-                      </td>
-
-                      <td className="text-right">
-                        2 minutes ago<Clock></Clock>
-                        <br />
-                        Shyam added <User2Icon></User2Icon>
-                      </td>
-
-                      <td  className="text-right">
-                        <span> pro max 11 vinay پرو میکس </span>
-                        <br />
-                        <span>
-                          Makkah <MapPin></MapPin>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                     <td className="text-center">
-                        <a href="#">
-                          <img
-                            style={{ width: "8vw" }}
-                            src={img4}
-                            className="avatar"
-                            alt="Avatar"
-                          />{" "}
-                        </a>
-                      </td>
-
-                      <td className="text-right">
-                        2 minutes ago<Clock></Clock>
-                        <br />
-                        Shyam added <User2Icon></User2Icon>
-                      </td>
-
-                      <td  className="text-right">
-                        <span> pro max 11 vinay پرو میکس </span>
-                        <br />
-                        <span>
-                          Makkah <MapPin></MapPin>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                     <td className="text-center">
-                        <a href="#">
-                          <img
-                            style={{ width: "8vw" }}
-                            src={img4}
-                            className="avatar"
-                            alt="Avatar"
-                          />{" "}
-                        </a>
-                      </td>
-
-                      <td className="text-right">
-                        2 minutes ago<Clock></Clock>
-                        <br />
-                        Shyam added <User2Icon></User2Icon>
-                      </td>
-
-                      <td  className="text-right">
-                        <span> pro max 11 vinay پرو میکس </span>
-                        <br />
-                        <span>
-                          Makkah <MapPin></MapPin>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                     <td className="text-center">
-                        <a href="#">
-                          <img
-                            style={{ width: "8vw" }}
-                            src={img4}
-                            className="avatar"
-                            alt="Avatar"
-                          />{" "}
-                        </a>
-                      </td>
-
-                      <td className="text-right">
-                        2 minutes ago<Clock></Clock>
-                        <br />
-                        Shyam added <User2Icon></User2Icon>
-                      </td>
-
-                      <td  className="text-right">
-                        <span> pro max 11 vinay پرو میکس </span>
-                        <br />
-                        <span>
-                          Makkah <MapPin></MapPin>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                     <td className="text-center">
-                        <a href="#">
-                          <img
-                            style={{ width: "8vw" }}
-                            src={img4}
-                            className="avatar"
-                            alt="Avatar"
-                          />{" "}
-                        </a>
-                      </td>
-
-                      <td className="text-right">
-                        2 minutes ago<Clock></Clock>
-                        <br />
-                        Shyam added <User2Icon></User2Icon>
-                      </td>
-
-                      <td  className="text-right">
-                        <span> pro max 11 vinay پرو میکس </span>
-                        <br />
-                        <span>
-                          Makkah <MapPin></MapPin>
-                        </span>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+      <div className="container-fluid ">
+        
+            <div className="row tab-content" id="myTabContent" >
+            <TabContent></TabContent>
               <div className="col-md-3 d-none d-sm-block text-center">
                 <Table>
                   <tbody>
@@ -622,8 +348,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+   
   );
 };
 
