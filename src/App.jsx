@@ -10,7 +10,8 @@ import Footer from "./Components/Footer"
 import Header from "./Components/Header";
 import { counterContext } from "../src/contexts/ActiveTabContexts"
 import { useContext } from "react";
-
+import { AddYourData } from "./Components/AddyourData";
+import ProfilePage from "./Components/ProfilePage";
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
         <Routes>
 
           <Route path="/" element={<Home/>}></Route>
+          <Route path="/add" element={<AddYourData/>}></Route>
+          <Route path="/profile" element={<ProfilePage/>}></Route>
+         
           
         </Routes>
         <Footer/>
