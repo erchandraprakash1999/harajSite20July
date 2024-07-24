@@ -177,8 +177,8 @@ setCount(e.target.value)
                 <div className="d-flex align-items-center">
                   <button
                     type="button"
-                    className="btn btn-warning px-5 py-2 h2 m-3"
-                    style={{ fontWeight: "normal",fontFamily:"monospace",fontSize:"large" }}
+                    className="btn btn-warning h6 m-2"
+                    style={{ fontWeight: "normal",fontFamily:"monospace",fontSize:"normal" }}
                   >
                     + Add your Post
                   </button>
