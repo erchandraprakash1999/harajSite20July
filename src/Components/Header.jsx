@@ -14,7 +14,6 @@ const Header = () => {
 setCount(e.target.value)
 }
   return (
-    
     <>
    
     
@@ -75,21 +74,26 @@ setCount(e.target.value)
             </div>
           </div>
         </div>
+        </header>
 
-        <nav className="navbar navbar-expand-lg navbar-light bg-primary">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarText"
-            aria-controls="navbarText"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarText">
-            <ul className="navbar-nav mr-auto pl-4">
+    
+    <nav className="navbar navbar-expand-lg navbar-light bg-primary">
+      <div className="container-fluid">
+        <button
+          data-mdb-collapse-init
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i className="fas fa-bars"></i>
+        </button>
+
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav mr-auto pl-4">
             <li className="nav-item">
                 <a className="nav-link" href="#">
                   <button
@@ -114,7 +118,7 @@ setCount(e.target.value)
     backgroundColor: "rgb(211, 211, 211)",
     color: "black",
   }}
-  className="btn btn-secondary dropdown-toggle p-2 px-3"
+  className="btn btn-secondary dropdown-toggle p-2  px-3"
   type="button"
   id="dropdownMenu"
   data-bs-toggle="dropdown"
@@ -158,9 +162,14 @@ setCount(e.target.value)
                 <img src={logo} alt="" style={{ width: "80%" }} />
               </a>
             </a>
-          </div>
-        </nav>
-        <nav className="bg-light" >
+         
+
+        </div>
+
+       
+      </div>
+    </nav>
+    <nav className="bg-light" >
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-12 py-2">
@@ -192,8 +201,9 @@ setCount(e.target.value)
             </div>
           </div>
         </nav>
-      </header>
+    
     </>
+   
   );
 };
 

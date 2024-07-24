@@ -25,7 +25,7 @@ function Example() {
                       backgroundColor: "rgb(211, 211, 211)",
                       color: "black",
                     }}
-                    className="btn btn-secondary p-2 px-4"
+                    className="btn btn-secondary p-2  px-3"
                     type="button"
                     id="#dropdownMenu"
                    
