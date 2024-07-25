@@ -12,6 +12,7 @@ import { counterContext } from "../src/contexts/ActiveTabContexts"
 import { useContext } from "react";
 import { AddYourData } from "./Components/AddyourData";
 import ProfilePage from "./Components/ProfilePage";
+import FollowersPage from "./Components/FollowersPage";
 
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
           <Route path="/add" element={<AddYourData/>}></Route>
           <Route path="/profile" element={<ProfilePage/>}></Route>
          
-          
+          <Route path="/followers" element={<FollowersPage />} ></Route>
+        
         </Routes>
         <Footer/>
       </BrowserRouter>
