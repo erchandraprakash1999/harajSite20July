@@ -1,17 +1,17 @@
 import React from "react";
-import imgA from "../assets/audi-logo.svg";
-import imgM from "../assets/suzuki-logo.svg";
-import imgB from "../assets/toyota-logo.svg";
-import imgC from "../assets/lexus-icon.svg";
-import imgD from "../assets/jaguar-logo.svg";
-import imgE from "../assets/haraj-logo.png";
-import imgF from "../assets/mercedes-logo.svg";
-import imgG from "../assets/gmc-logo.svg";
-import imgH from "../assets/bmw-logo.svg";
-import imgP from "../assets/audi-logo.svg";
-import imgN from "../assets/audi-logo.svg";
-import img0 from "../assets/audi-logo.svg";
-import horse from "../assets/horse.svg"
+import imgA from "../assets/images/body-images/audi-logo.svg";
+import imgM from "../assets/images/body-images/suzuki-logo.svg";
+import imgB from "../assets/images/body-images/toyota-logo.svg";
+import imgC from "../assets/images/body-images/lexus-icon.svg";
+import imgD from "../assets/images/body-images/jaguar-logo.svg";
+
+import imgF from "../assets/images/body-images/mercedes-logo.svg";
+import imgG from "../assets/images/body-images/gmc-logo.svg";
+import imgH from "../assets/images/body-images/bmw-logo.svg";
+import imgP from "../assets/images/body-images/audi-logo.svg";
+import imgN from "../assets/images/body-images/audi-logo.svg";
+import img0 from "../assets/images/body-images/audi-logo.svg";
+import horse from "../assets/images/body-images/horse.svg"
 const Sidecode = () => {
   return (
     <div>

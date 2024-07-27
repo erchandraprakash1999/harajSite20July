@@ -1,9 +1,3 @@
-import React from "react";
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
-const SignupForm = () => {
-  return <div>
-    
-  </div>;
-};
-
-export default SignupForm;

@@ -1,11 +1,12 @@
 import React from "react";
 
 import "../App.css";
-import logo from "../assets/haraj-logo.png";
+import logo from "../assets/images/logo-images/haraj-logo.png";
 import { NavLink } from "react-router-dom";
-import { Example } from "./Login&Reg";
+import { Example } from "../Auth/Components/LoginForm";
 import { counterContext } from "../contexts/ActiveTabContexts";
 import { useContext } from "react";
+
 
 const Header = () => {
   const { count, setCount } = useContext(counterContext);
@@ -14,14 +15,11 @@ const Header = () => {
   }
   return (
     <>
-      <style>
-        {`
-            .active {
-              color: red;
-            }
-              
-          `}
-      </style>
+     
+        
+           
+          
+     
       <header
         className="header"
         style={{ backgroundColor: "#D3D3D3", marginBottom: "0px" }}
@@ -29,7 +27,7 @@ const Header = () => {
         <div className="container-fluid" style={{ background: "#dddddd" }}>
           <div className="row align-items-center p-3" id="toprow">
             <div class="scrollbmenu">
-              <a href="#home">
+              <a id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">
                 {" "}
                 <span className="h6 text-dark">
                   More Sections <i className="fa fa-align-center"></i>

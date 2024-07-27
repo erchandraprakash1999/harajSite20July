@@ -1,6 +1,6 @@
 import React from 'react';
-import ps from "../assets/playstore.svg"
-import as from "../assets/applestore.png"
+import ps from "../assets/images/footer-images/playstore.svg"
+import as from "../assets/images/footer-images/applestore.png"
 
 const Folder = () => {
     return (

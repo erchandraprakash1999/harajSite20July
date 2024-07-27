@@ -21,14 +21,14 @@ import Dropdown from "react-bootstrap/Dropdown";
 import SplitButton from "react-bootstrap/SplitButton";
 import Button from "react-bootstrap/Button";
 import Table from "react-bootstrap/Table";
-import img1 from "../assets/game.webp";
-import img2 from "../assets/iphone.webp";
-import img3 from "../assets/mob.webp";
-import img4 from "../assets/remote.webp";
-import img5 from "../assets/vivo.webp";
-import avatar from "../assets/a.jpg";
+import img1 from "../assets/images/body-images/game.webp";
+import img2 from "../assets/images/body-images/iphone.webp";
+import img3 from "../assets/images/body-images/mob.webp";
+import img4 from "../assets/images/body-images/remote.webp";
+import img5 from "../assets/images/body-images/vivo.webp";
+
 import { SearchCheck } from "lucide";
-import TabContent from "./TabContent";
+import TabContent from "../dashboard/TabContent";
 import { counterContext } from "../contexts/ActiveTabContexts";
 
 const Home = () => {

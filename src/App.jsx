@@ -1,5 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+
 import viteLogo from "/vite.svg";
 import "./App.css";
 
@@ -10,9 +10,9 @@ import Footer from "./Components/Footer"
 import Header from "./Components/Header";
 import { counterContext } from "../src/contexts/ActiveTabContexts"
 import { useContext } from "react";
-import { AddYourData } from "./Components/AddyourData";
-import ProfilePage from "./Components/ProfilePage";
-import FollowersPage from "./Components/FollowersPage";
+import { AddYourData } from "./dashboard/AddyourData";
+import ProfilePage from "./user/ProfilePage";
+import FollowersPage from "./user/FollowersPage";
 
 
 function App() {

@@ -16,11 +16,11 @@ import {
   Clock,
   MapPin,
 } from "lucide-react";
-import img1 from "../assets/game.webp";
-import img2 from "../assets/iphone.webp";
-import img3 from "../assets/mob.webp";
-import img4 from "../assets/remote.webp";
-import img5 from "../assets/vivo.webp";
+import img1 from "../assets/images/body-images/game.webp";
+import img2 from "../assets/images/body-images/iphone.webp";
+import img3 from "../assets/images/body-images/mob.webp";
+import img4 from "../assets/images/body-images/remote.webp";
+import img5 from "../assets/images/body-images/vivo.webp";
 
 const TabContent = () => {
     
@@ -380,103 +380,7 @@ const TabContent = () => {
                 aria-labelledby="hunting-tab">
                 <table className="table">
                     <tbody>
-                        <tr>
-                        <tr>
-                            <td className="text-center">
-                                <a href="#">
-                                    <img
-                                        style={{ width: "8vw" }}
-                                        src={img2}
-                                        className="avatar"
-                                        alt="Avatar"
-                                    />
-                                </a>
-                            </td>
-                            <td className="text-right">
-                                2 hours ago<Clock />
-                                <br />
-                                Mia added <User2Icon />
-                            </td>
-                            <td className="text-right">
-                                <span>Accessory Designer</span>
-                                <br />
-                                <span>
-                                    Milan <MapPin />
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="text-center">
-                                <a href="#">
-                                    <img
-                                        style={{ width: "8vw" }}
-                                        src={img3}
-                                        className="avatar"
-                                        alt="Avatar"
-                                    />
-                                </a>
-                            </td>
-                            <td className="text-right">
-                                3 hours ago<Clock />
-                                <br />
-                                Sophia added <User2Icon />
-                            </td>
-                            <td className="text-right">
-                                <span>Fashion Consultant</span>
-                                <br />
-                                <span>
-                                    Paris <MapPin />
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="text-center">
-                                <a href="#">
-                                    <img
-                                        style={{ width: "8vw" }}
-                                        src={img2}
-                                        className="avatar"
-                                        alt="Avatar"
-                                    />
-                                </a>
-                            </td>
-                            <td className="text-right">
-                                2 hours ago<Clock />
-                                <br />
-                                Mia added <User2Icon />
-                            </td>
-                            <td className="text-right">
-                                <span>Accessory Designer</span>
-                                <br />
-                                <span>
-                                    Milan <MapPin />
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="text-center">
-                                <a href="#">
-                                    <img
-                                        style={{ width: "8vw" }}
-                                        src={img3}
-                                        className="avatar"
-                                        alt="Avatar"
-                                    />
-                                </a>
-                            </td>
-                            <td className="text-right">
-                                3 hours ago<Clock />
-                                <br />
-                                Sophia added <User2Icon />
-                            </td>
-                            <td className="text-right">
-                                <span>Fashion Consultant</span>
-                                <br />
-                                <span>
-                                    Paris <MapPin />
-                                </span>
-                            </td>
-                        </tr>
+                    <tr>
                             <td className="text-center">
                                 <a href="#">
                                     <img
@@ -524,6 +428,8 @@ const TabContent = () => {
                                 </span>
                             </td>
                         </tr>
+                      
+                     
                     </tbody>
                 </table>
             </div>

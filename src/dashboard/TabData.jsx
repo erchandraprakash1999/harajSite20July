@@ -1,8 +1,8 @@
-import img1 from "../assets/game.webp";
-import img2 from "../assets/iphone.webp";
-import img3 from "../assets/mob.webp";
-import img4 from "../assets/remote.webp";
-import img5 from "../assets/vivo.webp";
+import img1 from "../assets/images/body-images/game.webp";
+import img2 from "../assets/images/body-images/iphone.webp";
+import img3 from "../assets/images/body-images/mob.webp";
+import img4 from "../assets/images/body-images/remote.webp";
+import img5 from "../assets/images/body-images/vivo.webp";
 import { Clock, User2Icon, MapPin } from "lucide-react";
 
 const tabData = {
